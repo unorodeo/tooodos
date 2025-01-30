@@ -1,7 +1,4 @@
-import { DoorOpenIcon, HeartIcon } from "lucide-react";
-
 import { Button } from "../ui/button";
-import { Icons } from "../ui/icons";
 import { Input } from "../ui/input";
 import React from "react";
 
