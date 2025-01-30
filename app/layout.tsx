@@ -8,7 +8,7 @@ import { seo } from "@/lib/metadata";
 export const metadata: Metadata = seo({
   title: {
     template: "%s — Tooodos",
-    default: "Tooodos — Create, Plan, Manage and Analyze your dailt tasks.",
+    default: "Tooodos — Create, Plan, Manage and Analyze your daily tasks.",
   },
 });
 
