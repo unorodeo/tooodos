@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import { Metadata } from "next";
+import { Providers } from "@/components/providers";
 import { cn } from "@/lib/cn";
 import { inter } from "@/lib/fonts";
 import { seo } from "@/lib/metadata";
@@ -22,7 +23,9 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
-      <body className={cn("antialiased", inter.className)}>{children}</body>
+      <body className={cn("antialiased", inter.className)}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
