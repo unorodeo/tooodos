@@ -1,5 +1,8 @@
 import "./globals.css";
 
+import { cn } from "@/lib/cn";
+import { inter } from "@/lib/fonts";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,7 +13,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
-      <body>{children}</body>
+      <body className={cn("antialiased", inter.className)}>{children}</body>
     </html>
   );
 }
