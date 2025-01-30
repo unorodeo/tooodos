@@ -23,7 +23,12 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
-      <body className={cn("antialiased", inter.className)}>
+      <body
+        className={cn(
+          "antialiased min-h-screen flex flex-col items-center justify-between",
+          inter.className
+        )}
+      >
         <Providers>{children}</Providers>
       </body>
     </html>

@@ -15,7 +15,7 @@ export const Section: React.FC<Props> = ({
   return (
     <section
       className={cn(
-        "max-w-6xl mx-auto px-4 md:px-0 py-12 grid",
+        "max-w-6xl mx-auto px-4 md:px-0 py-12",
         {
           "max-w-full py-4": bleed,
         },
