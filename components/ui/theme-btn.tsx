@@ -1,6 +1,6 @@
 "use client";
 
-import { MonitorIcon, MoonStarIcon, SunIcon, SunMoonIcon } from "lucide-react";
+import { MonitorIcon, MoonStarIcon, SunIcon } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -13,7 +13,7 @@ import React from "react";
 import { useTheme } from "next-themes";
 
 export const ThemeBtn: React.FC = () => {
-  const { theme, setTheme } = useTheme();
+  const { setTheme } = useTheme();
   return (
     <Select
       defaultValue="system"
