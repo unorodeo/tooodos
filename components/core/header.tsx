@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { ThemeBtn } from "../ui/theme-btn";
 import { UserMenu } from "./user-menu";
 import { cn } from "@/lib/cn";
 import { focusRing } from "../ui/focuses";
@@ -19,6 +20,7 @@ export const Header: React.FC = () => {
         </Link>
 
         <div className="hidden md:flex md:flex-row md:items-center md:gap-2">
+          <ThemeBtn />
           <UserMenu />
         </div>
       </nav>

@@ -10,7 +10,10 @@ export const Navbar: React.FC = () => {
       <nav className="flex flex-row items-center justify-between my-6 max-w-7xl mx-auto bg-background">
         <Link
           href={"/"}
-          className={cn(focusRing, "text-3xl font-bold tracking-tight px-0.5 rounded")}
+          className={cn(
+            focusRing,
+            "text-3xl font-bold tracking-tight px-0.5 rounded"
+          )}
         >
           Tooodos
         </Link>
